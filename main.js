@@ -38,4 +38,5 @@ for(i=0;i<dataset.length;i++){
     }
 }
 
+//Maximum kazanç
 console.log(profitLossState);
