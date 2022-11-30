@@ -13,13 +13,11 @@ var buy= (a) => {
         amount=1;
     }
     profitLossState-=dataset[a]*amount;
-    console.log("buy calisti."+a+" "+profitLossState);
 }
 
 var sell=(b) => {
     profitLossState+=dataset[b]*amount;
     amount=0;
-    console.log("sell calisti."+b+" "+profitLossState);
 }
 
 for(i=0;i<dataset.length;i++){
