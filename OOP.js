@@ -32,12 +32,10 @@ class MaxProfitCalculator{
             this.amount=1;
         }
         this.profitLoss-=this.dataset[a]*this.amount;
-        console.log("buy calisti."+a+" "+this.profitLoss);
     }
     sell(b){
     this.profitLoss+=this.dataset[b]*this.amount;
     this.amount=0;
-    console.log("sell calisti."+b+" "+this.profitLoss);
     }
 }
 
