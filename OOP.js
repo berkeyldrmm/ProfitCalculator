@@ -43,4 +43,5 @@ class MaxProfitCalculator{
 
 var example=new MaxProfitCalculator(true,false,0,0,[100,50,60,80,30,80,150,130,110,80,120,170,200,180,120,160,180])
 
+//Maximum kazanç
 console.log(example.calculate());
